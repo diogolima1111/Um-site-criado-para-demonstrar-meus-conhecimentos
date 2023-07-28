@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+style h1 {
+    color: rgb(0, 0, 0);
+    font-size: 22pt;
+}
+
+body {
+    background-color: rgb(234, 223, 243);
+    color: rgba(4, 0, 0, 0.833);
+
+}
+
+div#interface {
+    width: 1300px;
+    background-color: rgb(255, 255, 255);
+    margin: 60px 15px 15px 15px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, .6);
+    padding: 10px 10px 10px 10px;
+}
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 1188px;
+    top: 80px
+}
+
+header#cabecalho {
+    border: 2px solid #606060;
+
+}
+
+header#cabecalho h1 {
+    font-size: 50px;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    color: rgb(33, 29, 29);
+}
+
+header#cabecalho h2 {
+    font-size: 30px;
+    font-family: 'Quicksand', Helvetica, sans-serif;
+    color: rgb(37, 48, 48);
+}
+
+figure.foto-legenda {
+    border: 8px solid whitesmoke;
+    box-shadow: 1px 1px 4px black;
+    height: 3%;
+    width: 4%;
+
+}
+
+figure.foto-legenda figcaption {
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+nav#Menu ul {
+
+    list-style: none;
+    position: absolute;
+    top: -10px;
+    left: 1300px;
+}
+
+nav#Menu li {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+
+}
+
+nav#Menu {
+    display: block;
+}
+
+nav#Menu h1 {
+    display: none;
+}
+
+nav#Menu li :hover {
+    background-color: rgb(0, 0, 0);
+}
+
+nav#Menu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav#Menu a:hover {
+    color: whitesmoke;
+}
+
+section#corpo {
+    display: block;
+    width: 600px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 100px;
+}
+
+aside#lateral {
+    display: block;
+    width: 500px;
+    float: right
+}
+
+footer#Rodape {
+
+    clear: both;
+    border-top: 1px solid #606060;
+
+}
+
+footer#Rodape p {
+    text-align: center;
+}
