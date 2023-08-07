@@ -15,7 +15,7 @@ body {
 }
 
 div#interface {
-    width: 1300px;
+    width: 1388px;
     background-color: rgb(255, 255, 255);
     margin: 60px 15px 15px 15px;
     box-shadow: 0px 0px 10px rgb(0, 0, 0, .6);
@@ -24,7 +24,7 @@ div#interface {
 
 header#cabecalho img#icone {
     position: absolute;
-    left: 1188px;
+    left: 1310px;
     top: 80px
 }
 
@@ -48,8 +48,8 @@ header#cabecalho h2 {
 figure.foto-legenda {
     border: 8px solid whitesmoke;
     box-shadow: 1px 1px 4px black;
-    height: 3%;
-    width: 4%;
+    height: 6%;
+    width: 5%;
 
 }
 
@@ -64,7 +64,7 @@ nav#Menu ul {
     list-style: none;
     position: absolute;
     top: -10px;
-    left: 1300px;
+    left: 1400px;
 }
 
 nav#Menu li {
@@ -83,6 +83,8 @@ nav#Menu h1 {
     display: none;
 }
 
+
+
 nav#Menu li :hover {
     background-color: rgb(0, 0, 0);
 }
@@ -98,7 +100,7 @@ nav#Menu a:hover {
 
 section#corpo {
     display: block;
-    width: 600px;
+    width: 620px;
     float: left;
     border-right: 1px solid #606060;
     padding-right: 100px;
@@ -106,7 +108,7 @@ section#corpo {
 
 aside#lateral {
     display: block;
-    width: 500px;
+    width: 650px;
     float: right
 }
 
